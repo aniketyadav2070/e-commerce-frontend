@@ -1,0 +1,110 @@
+body {
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+/* Scrollbar CSS*/
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+  display: none;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Utility Classes */
+.displayCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayColumnCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.displayStart {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.d-flexAlignStart {
+  display: flex;
+  align-items: flex-start;
+}
+
+.displayEnd {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.displaySpacebetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.columnJustifyCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-flexCenterAlignStart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.columnJustifyAlignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.columnJustifyCenterAlignStart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.d-flexColumnStart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.alignCenter {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #fcfcfc inset ;
+}
